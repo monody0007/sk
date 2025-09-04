@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Ignore all hidden files (dotfiles)
+.*
+# Also ignore hidden directories
+
+.*/
+.venv/
+venv/
+!.gitignore
+!.gitattributes
+!.gitmodules
+!.github/
+!.gitkeep
+
+
+
+# Ignore memU directory
+memU/
