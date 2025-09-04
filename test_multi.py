@@ -8,7 +8,7 @@ by running the single-agent test for each character in a predefined list.
 It's useful for testing character consistency across multiple agents.
 """
 
-from test_improved_memory_chat import test_memory_chat_with_existing_agent
+from test_single import test_memory_chat_with_existing_agent
 
 # Fill in the Agent IDs you want to test
 AGENT_IDS = [
